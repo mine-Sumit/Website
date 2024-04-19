@@ -1,0 +1,476 @@
+.horizon {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+}
+
+.contact-us,
+.navbar {
+  display: flex;
+  align-items: center;
+}
+
+.contact-us {
+  text-decoration: none;
+  align-self: stretch;
+  width: 80px;
+  position: relative;
+  font-size: var(--text-size);
+  font-family: var(--text);
+  color: var(--fades-white);
+  text-align: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.navbar {
+  margin: 0;
+  width: 860px;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: left;
+  font-size: var(--heading-size);
+  color: var(--secondry);
+  font-family: var(--heading);
+}
+
+.investment-management,
+.we-excel-in {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-weight: 400;
+}
+
+.investment-management {
+  font-size: inherit;
+  font-family: inherit;
+}
+
+.we-excel-in {
+  font-size: var(--text-size);
+  font-family: var(--text);
+  color: var(--fades-white);
+}
+
+.div {
+  width: 420px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+
+.image-icon {
+  width: 310px;
+  position: relative;
+  height: 334px;
+  object-fit: contain;
+}
+
+.hero {
+  width: 860px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  text-align: left;
+  font-size: var(--heading-size);
+  color: var(--secondry);
+  font-family: var(--heading);
+}
+
+.our-approach-to {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+}
+
+.image-icon1 {
+  width: 24px;
+  position: relative;
+  height: 20px;
+  object-fit: cover;
+}
+
+.raising-capital,
+.we-begin-a {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-weight: 400;
+  font-family: inherit;
+}
+
+.raising-capital {
+  font-size: inherit;
+}
+
+.we-begin-a {
+  font-size: var(--text-size);
+  color: var(--fades-white);
+}
+
+.div2 {
+  align-self: stretch;
+  border-radius: var(--br-3xs);
+  background-color: var(--fades-black);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-xl) var(--padding-base);
+  gap: var(--gap-xs);
+}
+
+.vector-icon {
+  width: 24px;
+  position: relative;
+  height: 24px;
+}
+
+.div1,
+.method {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+
+.div1 {
+  align-self: stretch;
+  font-size: var(--sub-heading-size);
+  font-family: var(--text);
+}
+
+.method {
+  width: 860px;
+  text-align: left;
+  font-size: var(--heading-size);
+  color: var(--secondry);
+  font-family: var(--heading);
+}
+
+.reasons-why-we {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: var(--text-size);
+  font-weight: 400;
+  font-family: var(--text);
+  color: var(--fades-white);
+}
+
+.div5 {
+  width: 420px;
+  gap: var(--gap-5xs);
+}
+
+.div5,
+.div6,
+.div7 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.div7 {
+  align-self: stretch;
+  gap: var(--gap-5xs);
+}
+
+.div6 {
+  width: 330px;
+  gap: var(--gap-21xl);
+  font-size: var(--sub-heading-size);
+  font-family: var(--text);
+}
+
+.say-hi-to,
+.why-us {
+  font-size: var(--heading-size);
+  font-family: var(--heading);
+  color: var(--secondry);
+}
+
+.why-us {
+  width: 860px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 110px;
+  text-align: left;
+}
+
+.say-hi-to {
+  margin: 0;
+  position: relative;
+  font-weight: 400;
+}
+
+.hey-team-horizon,
+.say-hi-to {
+  align-self: stretch;
+}
+
+.hey-team-horizon,
+.send {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+}
+
+.send {
+  cursor: pointer;
+}
+
+.div11 {
+  width: 860px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-xl) var(--padding-base);
+  box-sizing: border-box;
+  gap: var(--gap-xs);
+}
+
+.image-icon3 {
+  width: 24px;
+  position: relative;
+  height: 31px;
+}
+
+.we-are-strategically {
+  margin: 0;
+}
+
+.instagram,
+.social {
+  text-decoration: none;
+  position: relative;
+  color: inherit;
+  cursor: pointer;
+}
+
+.links {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-21xl);
+}
+
+.note,
+.we-are-strategically-located-i-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.we-are-strategically-located-i-parent {
+  align-self: stretch;
+  gap: var(--gap-21xl);
+}
+
+.note {
+  width: 860px;
+  gap: var(--gap-5xs);
+  text-align: left;
+  font-size: var(--heading-size);
+  color: var(--secondry);
+  font-family: var(--heading);
+}
+
+.div13 {
+  position: relative;
+}
+
+.links1 {
+  flex-direction: row;
+  gap: var(--gap-5xs);
+}
+
+.horizon-parent,
+.index,
+.links1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.horizon-parent {
+  width: 860px;
+  flex-direction: row;
+  gap: var(--gap-543xl);
+}
+
+.index {
+  position: relative;
+  background-color: var(--primary);
+  width: 100%;
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-21xl) var(--padding-271xl);
+  box-sizing: border-box;
+  gap: 200px;
+  text-align: left;
+  font-size: var(--text-size);
+  color: var(--fades-white);
+  font-family: var(--text);
+}
+
+.inputs {
+  width: 160px;
+  font-family: var(--text);
+  background-color: transparent;
+  color: var(--fades-white);
+  border: none;
+  border-bottom: 2px solid var(--fades-white);
+  padding: 2px 4px;
+  outline: none;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+
+}
+
+@media screen and (max-width: 960px) {
+  .horizon {
+    font-size: var(--font-size-5xl);
+  }
+
+  .contact-us {
+    font-size: var(--font-size-xs);
+  }
+
+  .navbar {
+    align-self: stretch;
+    width: auto;
+  }
+
+  .investment-management,
+  .we-excel-in {
+    font-size: var(--font-size-5xl);
+    text-align: center;
+  }
+
+  .we-excel-in {
+    font-size: var(--font-size-xs);
+    flex: 1;
+  }
+
+  .div,
+  .hero,
+  .image-icon {
+    align-self: stretch;
+    width: auto;
+  }
+
+  .hero {
+    flex-direction: column-reverse;
+    gap: var(--gap-xl);
+  }
+
+  .our-approach-to {
+    font-size: var(--font-size-5xl);
+  }
+
+  .raising-capital {
+    font-size: var(--font-size-base);
+  }
+
+  .we-begin-a {
+    font-size: var(--font-size-xs);
+  }
+
+  .method {
+    align-self: stretch;
+    width: auto;
+  }
+
+  .reasons-why-we {
+    font-size: var(--font-size-xs);
+  }
+
+  .div5,
+  .div6,
+  .why-us {
+    align-self: stretch;
+    width: auto;
+  }
+
+  .div6 {
+    gap: 28px;
+  }
+
+  .why-us {
+    flex-direction: column;
+    gap: var(--gap-21xl);
+  }
+
+  .say-hi-to {
+    font-size: var(--font-size-base);
+  }
+
+  .hey-team-horizon,
+  .send {
+    font-size: var(--font-size-xs);
+  }
+
+  .div11 {
+    align-self: stretch;
+    width: auto;
+  }
+
+  .instagram,
+  .social {
+    font-size: var(--font-size-xs);
+  }
+
+  .note {
+    align-self: stretch;
+    width: auto;
+  }
+
+  .horizon-parent {
+    flex-direction: column;
+    gap: var(--gap-xs);
+  }
+
+  .index {
+    gap: var(--gap-141xl);
+    padding: var(--padding-17xl) var(--padding-21xl);
+    box-sizing: border-box;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .div6 {
+    gap: var(--gap-xl);
+  }
+
+  .horizon-parent {
+    gap: var(--gap-5xs);
+  }
+
+  .index {
+    padding-left: var(--padding-5xl);
+    padding-top: var(--padding-17xl);
+    padding-right: var(--padding-5xl);
+    box-sizing: border-box;
+  }
+}

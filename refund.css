@@ -1,0 +1,183 @@
+.horizon2 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.contact-us1,
+.navbar1 {
+  display: flex;
+  align-items: center;
+}
+
+.contact-us1 {
+  text-decoration: none;
+  align-self: stretch;
+  width: 80px;
+  position: relative;
+  font-size: var(--text-size);
+  font-family: var(--text);
+  color: var(--fades-white);
+  text-align: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.navbar1 {
+  margin: 0;
+  width: 860px;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: left;
+  font-size: var(--heading-size);
+  color: var(--secondry);
+  font-family: var(--heading);
+}
+
+.refund-policy {
+  align-self: stretch;
+  position: relative;
+}
+
+.at-horizon-we {
+  margin: 0;
+}
+
+.dissatisfaction-with-the {
+  margin-bottom: 0;
+}
+
+.dissatisfaction-with-the-servi {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-lgi);
+}
+
+.at-horizon-we-container {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--text-size);
+  color: var(--fades-white);
+}
+
+.div15 {
+  width: 860px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  text-align: left;
+  font-size: var(--sub-heading-size);
+  color: var(--secondry);
+  font-family: var(--text);
+}
+
+.horizon3 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+}
+
+.about-us1 {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+.about-us1,
+.div16 {
+  position: relative;
+}
+
+.horizon-group,
+.links2,
+.refund1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-5xs);
+}
+
+.horizon-group,
+.refund1 {
+  width: 860px;
+  gap: var(--gap-543xl);
+}
+
+.refund1 {
+  position: relative;
+  background-color: var(--primary);
+  width: 100%;
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-21xl) var(--padding-271xl);
+  box-sizing: border-box;
+  gap: var(--gap-121xl);
+  text-align: left;
+  font-size: var(--text-size);
+  color: var(--fades-white);
+  font-family: var(--text);
+}
+
+@media screen and (max-width: 960px) {
+  .horizon2 {
+    font-size: var(--font-size-5xl);
+  }
+
+  .contact-us1 {
+    font-size: var(--font-size-xs);
+  }
+
+  .navbar1 {
+    align-self: stretch;
+    width: auto;
+  }
+
+  .refund-policy {
+    font-size: var(--font-size-base);
+  }
+
+  .at-horizon-we-container {
+    font-size: var(--font-size-xs);
+  }
+
+  .div15 {
+    align-self: stretch;
+    width: auto;
+  }
+
+  .about-us1,
+  .horizon3 {
+    font-size: var(--font-size-xs);
+  }
+
+  .horizon-group {
+    flex-direction: column;
+    gap: var(--gap-xs);
+  }
+
+  .refund1 {
+    gap: var(--gap-141xl);
+    padding: var(--padding-17xl) var(--padding-21xl);
+    box-sizing: border-box;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .horizon-group {
+    gap: var(--gap-5xs);
+  }
+
+  .refund1 {
+    gap: var(--gap-61xl);
+  }
+}

@@ -1,0 +1,199 @@
+.horizon4 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.contact-us2,
+.navbar2 {
+  display: flex;
+  align-items: center;
+}
+
+.contact-us2 {
+  text-decoration: none;
+  align-self: stretch;
+  width: 80px;
+  position: relative;
+  font-size: var(--text-size);
+  font-family: var(--text);
+  color: var(--fades-white);
+  text-align: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.navbar2 {
+  margin: 0;
+  width: 860px;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: left;
+  font-size: var(--heading-size);
+  color: var(--secondry);
+  font-family: var(--heading);
+}
+
+.terms-and-conditions {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+}
+
+.welcome-to-horizon {
+  margin: 0;
+}
+
+.welcome-to-horizon-container {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: var(--text-size);
+  font-weight: 400;
+  font-family: inherit;
+  color: var(--fades-white);
+}
+
+.div19 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+
+.engaging-in-fraudulent {
+  margin-bottom: 0;
+}
+
+.engaging-in-fraudulent-transac {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-lgi);
+}
+
+.div18 {
+  width: 860px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-21xl);
+  text-align: left;
+  font-size: var(--sub-heading-size);
+  color: var(--secondry);
+  font-family: var(--text);
+}
+
+.horizon5 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+}
+
+.about-us2 {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+.about-us2,
+.div22 {
+  position: relative;
+}
+
+.horizon-container,
+.links3,
+.terms2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-5xs);
+}
+
+.horizon-container,
+.terms2 {
+  width: 860px;
+  gap: var(--gap-543xl);
+}
+
+.terms2 {
+  position: relative;
+  background-color: var(--primary);
+  width: 100%;
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-21xl) var(--padding-271xl);
+  box-sizing: border-box;
+  gap: var(--gap-121xl);
+  text-align: left;
+  font-size: var(--text-size);
+  color: var(--fades-white);
+  font-family: var(--text);
+}
+
+@media screen and (max-width: 960px) {
+  .horizon4 {
+    font-size: var(--font-size-5xl);
+  }
+
+  .contact-us2 {
+    font-size: var(--font-size-xs);
+  }
+
+  .navbar2 {
+    align-self: stretch;
+    width: auto;
+  }
+
+  .terms-and-conditions {
+    font-size: var(--font-size-base);
+  }
+
+  .welcome-to-horizon-container {
+    font-size: var(--font-size-xs);
+  }
+
+  .div18 {
+    align-self: stretch;
+    width: auto;
+  }
+
+  .about-us2,
+  .horizon5 {
+    font-size: var(--font-size-xs);
+  }
+
+  .horizon-container {
+    flex-direction: column;
+    gap: var(--gap-xs);
+  }
+
+  .terms2 {
+    gap: var(--gap-141xl);
+    padding: var(--padding-17xl) var(--padding-21xl);
+    box-sizing: border-box;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .horizon-container {
+    gap: var(--gap-5xs);
+  }
+
+  .terms2 {
+    gap: var(--gap-61xl);
+  }
+}
